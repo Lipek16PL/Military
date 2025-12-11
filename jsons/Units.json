@@ -13,5 +13,58 @@
 		"requiredResource": "Uranium",
 		"promotions": ["Logistics","Accuracy I"],
 		"attackSound": "phasers"
-	}
+	},
+		{
+		"name": "Little bird",
+		"unitType": "Air Helicopter",
+		"movement": 30,
+		"uniqueTo": "CANADA",
+		"strength": 50,
+		"rangedStrength": 50,
+		"range": 3,
+		"maxHitPoints": 175,
+		"cost": 425,
+		"requiredTech": "Flight",
+		"requiredResource": "Aluminum",
+		"uniques": ["[+30]% Strength <vs [Armored] units>","No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit", "May travel on Water tiles without embarking", "[This Unit] takes [20] damage <upon ending a turn in a [Ocean] tile>",
+		"[-1] Movement <in [Ocean] tiles>"
+		],
+		"upgradesTo": "Helicopter Gunship",
+		"obsoleteTech": "Computers",
+		"attackSound": "bombing"
+	},
+	{
+		"name": "AH-1Z rocket",
+		"unitType": "Air Helicopter",
+		"movement": 2,
+		"uniqueTo": "PMC private group",
+		"strength": 50,
+		"rangedStrength": 50,
+		"range": 3,
+		"maxHitPoints": 175,
+		"cost": 425,
+		"requiredTech": "Flight",
+		"requiredResource": "Aluminum",
+		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit", "Nuclear weapon of Strength [1]", "Blast radius [0]", "Consumes [1] [Uranium]", "Rough terrain penalty", "Only available <if [Manhattan Project] is constructed>", "[+30]% Strength <vs [Armored] units>","No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit", "May travel on Water tiles without embarking", "[This Unit] takes [20] damage <upon ending a turn in a [Ocean] tile>",
+		"[-1] Movement <in [Ocean] tiles>"
+		],
+		"upgradesTo": "Helicopter Gunship",
+		"obsoleteTech": "Computers",
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Nuke Cannon",
+		"unitType": "Siege Nuke",
+		"movement": 2,
+		"strength": 45,
+		"rangedStrength": 50,
+		"range": 3,
+		"cost": 400,
+		"requiredTech": "Nuclear Fission",
+		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit", "Nuclear weapon of Strength [1]", "Blast radius [0]", "Consumes [1] [Uranium]", "Rough terrain penalty", "Only available <if [Manhattan Project] is constructed>"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+	},
 ]
