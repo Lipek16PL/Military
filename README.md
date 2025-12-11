@@ -1,5 +1,5 @@
-# Unciv-mod-example
+# Unciv-mod-MILITARY
 
-An example mod for Unciv, that adds one new Civilization.
+THE MOD WITH VECHICLE FROM THE WORLD 
 
-For information on how to build and use mods, please refer to [the setup instructions](https://yairm210.github.io/Unciv/Modders/Making-a-new-Civilization/)
+
